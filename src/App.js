@@ -34,7 +34,7 @@ export default function App() {
       ></input>
       <div style={{ fontSize: "1.5rem", fontWeight: "bold" }}>{answer}</div>
       <footer>
-        <h2 style={{textAlign: "center"}}>
+        <h2>
           Do you want to check if your birth year is a leap year? If yes, click
           here.
         </h2>

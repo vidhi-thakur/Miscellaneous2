@@ -42,7 +42,7 @@
     border: 2px solid var(--primary-color);
     border-top-left-radius: 0.8rem;
     padding: 1rem;
-    margin: 16.5rem 0px 0px 0px;
+    margin: 16.5rem auto 0px auto;
     text-align: justify;
   }
   
