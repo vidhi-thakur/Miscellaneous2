@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+TC:wght@300;700&display=swap');
 
 :root {
     --primary-color: #013220;
@@ -26,6 +26,7 @@
   
   .App {
     font-family: 'Indie Flower', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
     text-align: center;
   }
   
