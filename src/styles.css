@@ -1,0 +1,55 @@
+:root {
+    --primary-color: #013220;
+    --secondary-color: white;
+  }
+  
+  #bodyApp {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 0px;
+  }
+  
+  h1 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 0px;
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+    border-bottom-right-radius: 0.8rem;
+  }
+  
+  h3 {
+    margin: 8rem 0px 3rem 0px;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .userInput {
+    width: 200px;
+    height: 50px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-top-left-radius: 0.8rem;
+    padding: 1rem;
+    margin: 16.5rem 0px 0px 0px;
+    text-align: justify;
+  }
+  
+  @media screen and (max-width: 500px) {
+    h2 {
+      margin: 12rem 0px 0px 0px;
+      font-size: 1.2rem;
+    }
+  }
+  
